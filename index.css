@@ -1,0 +1,22 @@
+body{
+  background-image: url("source/img/background.jpg");
+  background-color: #0e0e29;
+}
+.title{
+  color:white;
+  font-family: 'Sofia';
+  font-size:60px;
+
+}
+
+.ellis{
+  width:450px;
+  height:auto;;
+  display: block;
+  margin: auto;
+  margin-top: 130px;
+}
+.center{
+  margin: auto;
+  text-align: center;
+}

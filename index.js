@@ -118,4 +118,13 @@
   }
 })(document.getElementById("star_field"));
 
-$('music')
+var music = document.getElementById('music');
+
+$('.mute').click(function(e){
+  music.muted = !music.muted;
+  if(music.muted===true){
+    $(this).removeClass('fa-volume-up').addClass('fa-volume-off');
+  }else{
+    $(this).removeClass('fa-volume-off').addClass('fa-volume-up');
+  }
+});

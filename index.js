@@ -14,18 +14,24 @@
     min_bright = .2;
 
   /* LOGICS */
-  // setCanvasSize();
+  setCanvasSize();
   generate(15000, .5);
-  spark(15);
+  spark(1000);
 
   /* FUNCTIONS */
 
-  // function setCanvasSize() {
-  //   this.canvas.width = window.innerWidth;
-  //   this.canvas.height = window.innerHeight;
-  //   this.w = this.canvas.width;
-  //   this.h = this.canvas.height;
-  // }
+  function setCanvasSize() {
+    canvas = document.getElementById("star_field");
+    if (canvas.width  < window.innerWidth)
+    {
+      canvas.width  = window.innerWidth;
+    }
+
+    if (canvas.height < window.innerHeight)
+    {
+      canvas.height = window.innerHeight;
+    }
+  }
 
   function generate(starsCount, opacity) {
     for(var i = 0; i < starsCount; i++) {
@@ -111,3 +117,5 @@
     return parseFloat(val.toFixed(1));
   }
 })(document.getElementById("star_field"));
+
+$('music')

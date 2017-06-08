@@ -14,9 +14,12 @@
     min_bright = .2;
 
   /* LOGICS */
-  setCanvasSize();
-  generate(15000, .5);
-  spark(1000);
+  function draw() {
+    setCanvasSize();
+    generate(15000, .5);
+    spark(1000);
+  }
+  draw();
 
   /* FUNCTIONS */
 
@@ -116,6 +119,7 @@
       val -= 0.1;
     return parseFloat(val.toFixed(1));
   }
+
 })(document.getElementById("star_field"));
 
 var music = document.getElementById('music');

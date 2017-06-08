@@ -8,6 +8,14 @@
   font-size:60px;
 
 }
+.subtitle{
+  color:white;
+  font-family: 'Sofia';
+  font-size:60px;
+  position: absolute;
+  left:76%;
+  margin-top: 5%;
+}
 
 .onOff{
   position: fixed;
@@ -37,6 +45,9 @@ body {
   background-attachment: fixed;
  /*//background: linear-gradient(0deg, #191970, #000000);*/
 
+}
+section {
+  height: 100vh;
 }
 
 #star_field {

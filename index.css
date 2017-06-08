@@ -17,6 +17,11 @@
   margin-top: 5%;
 }
 
+.gallery{
+  margin-top: 10%;
+  margin-left: 2% !important;
+  margin-right: 2% !important;
+}
 .onOff{
   position: fixed;
   top: 20px;

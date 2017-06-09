@@ -76,9 +76,9 @@
 html {
   height: 100%;
 }
-/*::-webkit-scrollbar {*/
-  /*display: none;*/
-/*}*/
+::-webkit-scrollbar {
+  display: none;
+}
 .cover {
   background-image: -webkit-linear-gradient(90deg, #191970, #000000);
   margin: 0;

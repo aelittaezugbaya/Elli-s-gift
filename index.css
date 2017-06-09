@@ -6,11 +6,8 @@
   color:white;
   font-family: 'Sofia';
   font-size:60px;
-
 }
-.docScroller {
 
-}
 .subtitle{
   color:white;
   font-family: 'Sofia';
@@ -34,6 +31,12 @@
 }
 .section2{
   background-image: url(source/img/433850-dark-landscapes-night-sky-skyline-space-stars.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.section3{
+  background-image: url(source/img/background3.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -62,6 +65,11 @@
   left: 20px;
 }
 
+.twenty{
+  margin-left: 24%;
+  margin-top: 10%;
+}
+
 .ellis{
   width:450px;
   height:auto;;
@@ -85,8 +93,6 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   /*position:absolute;*/
-
-
 }
 body{
   margin: 0;

@@ -42,12 +42,17 @@
 html {
   height: 100%;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 body {
   background-image: -webkit-linear-gradient(90deg, #191970, #000000);
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  
+
  /*//background: linear-gradient(0deg, #191970, #000000);*/
 
 }

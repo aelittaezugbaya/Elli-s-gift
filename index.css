@@ -39,6 +39,7 @@
   background-image: url(source/img/background3.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+
 }
 
 #myCarousel{
@@ -64,12 +65,12 @@
   top: 20px;
   left: 20px;
 }
-
 .twenty{
-  margin-left: 24%;
-  margin-top: 10%;
+  margin-top: 15%;
 }
-
+.container > img {
+  vertical-align: middle;
+}
 .ellis{
   width:450px;
   height:auto;;
@@ -99,7 +100,7 @@ body{
 }
 section {
   height: 100vh;
-  background-size:100% auto;
+  width:100%;
 }
 
 #star_field {

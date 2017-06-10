@@ -6,33 +6,105 @@
   color:white;
   font-family: 'Sofia';
   font-size:60px;
+}
+
+.subtitle{
+  color:white;
+  font-family: 'Sofia';
+  font-size:60px;
+  position: absolute;
+  right:6%;
+  margin-top: 3%;
+}
+
+/*div.c-wrapper{*/
+  /*margin-top: 10%;*/
+  /*width: 80%; !* for example *!*/
+  /*margin: auto;*/
+/*}*/
+
+.section{
+  background-image: url(source/img/af9e777034f5f398eb08d9f3107abf9c.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.section2{
+  background-image: url(source/img/433850-dark-landscapes-night-sky-skyline-space-stars.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.section3{
+  background-image: url(source/img/background3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
 }
 
-.ellis{
-  width:450px;
-  height:auto;;
-  display: block;
+#myCarousel{
+  margin-top: 20%;
+
+  margin-bottom: 10px;
+
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+  width: 100%;
+  height: 220px;
   margin: auto;
-  margin-top: 130px;
+}
+.gallery{
+  margin-top: 10%;
+  margin-left: 2% !important;
+  margin-right: 2% !important;
+}
+.onOff{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+.twenty{
+  margin-top: 35%;
+  margin-bottom: 8%;
+  padding-right: 10%;
+}
+.container > img {
+  vertical-align: middle;
+}
+.ellis{
+  width:40%;
+  height:auto;;
+  margin-top: 10%;
+}
+p{
+  font-family: 'Sofia';
+  font-size: 18px;
 }
 .center{
   margin: auto;
   text-align: center;
 }
-html {
-  height: 100%;
+::-webkit-scrollbar {
+  display: none;
 }
-body {
+.cover {
   background-image: -webkit-linear-gradient(90deg, #191970, #000000);
-  height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
- /*//background: linear-gradient(0deg, #191970, #000000);*/
-
+  /*position:absolute;*/
+}
+html,body{
+  height: 100%;
+  margin: 0
+}
+section {
+  height: 100vh;
+  width:100vw;
 }
 
 #star_field {
-  z-index:-1;
+  z-index:0;
 }

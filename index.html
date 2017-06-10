@@ -22,12 +22,29 @@
               section : ".list",
 
             });
+              setSectionSize();
           });
+
+          function setSectionSize() {
+            var sections = $("section");
+            for(let i of sections){
+              if ($(i).width()  < window.innerWidth)
+              {
+                $(i).width(window.innerWidth);
+              }
+
+              if ($(i).height() < window.innerHeight)
+              {
+                $(i).height(window.innerHeight);
+              }
+            }
+          }
+
         </script>
     </head>
     <body>
         <div class="docScroller">
-        <section width="100%" class="cover list">
+        <section  id='lol' class="cover list" >
             <canvas id="star_field" style="position:absolute;"></canvas>
             <div class='container'>
                 <div class='center' style="position: relative">
